@@ -13,3 +13,8 @@ HTTPClient::~HTTPClient()
     delete ui;
 }
 
+
+void HTTPClient::on_g_absenden_clicked()
+{
+
+}

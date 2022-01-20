@@ -15,6 +15,9 @@ public:
     HTTPClient(QWidget *parent = nullptr);
     ~HTTPClient();
 
+private slots:
+    void on_g_absenden_clicked();
+
 private:
     Ui::HTTPClient *ui;
 };
